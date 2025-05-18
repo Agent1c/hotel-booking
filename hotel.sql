@@ -1,3 +1,6 @@
+-- Designing a Hotel Booking Database 
+-- Used SQL to make it possible
+
 -- Create database
 CREATE DATABASE IF NOT EXISTS hotel;
 USE hotel;
@@ -114,13 +117,3 @@ room_id INT,
 FOREIGN KEY (booking_id) REFERENCES booking(booking_id),
 FOREIGN KEY (room_id) REFERENCES room(room_id)
 );
-
-
-
-
-
-
-
-
-
-
